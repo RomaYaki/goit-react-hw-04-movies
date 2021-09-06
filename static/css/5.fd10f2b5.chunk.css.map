@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Components/CardComponent/Card.module.css"],"names":[],"mappings":"AAAA,uBACE,YACF,CACA,2BACE,iBACF","file":"5.fd10f2b5.chunk.css","sourcesContent":[".MovieCard {\n  display: flex;\n}\n.MovieCard > img {\n  margin-right: 20px;\n}\n"]}

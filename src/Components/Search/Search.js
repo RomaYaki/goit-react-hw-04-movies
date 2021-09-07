@@ -3,11 +3,11 @@ import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import styles from './Search.module.css'
 
-function Search({ onSubmit }) {
+function SearchMovie({ onSubmit }) {
     const [search, setSearch] = useState('');
 
     const ChangeName = (e) => {
-        setSearch(e.currentTaget.value.toLoverCase());
+        setSearch(e.currentTarget.value.toLowerCase());
     };
 
     const handleSubmit = (e) => {
@@ -44,10 +44,10 @@ function Search({ onSubmit }) {
     );
 };
 
-    Search.propTypes = {
+    SearchMovie.propTypes = {
     onSubmit: PropTypes.func.isRequired,
     };
 
-export default Search;
+export default SearchMovie;
 
 
